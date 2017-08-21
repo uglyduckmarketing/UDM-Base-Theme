@@ -1,0 +1,260 @@
+#preview-action {
+  display: none;
+}
+
+/* Inputs
+------------------------------ */
+
+input[type="text"],input[type="password"],input[type="checkbox"],input[type="color"],input[type="date"],input[type="datetime"],input[type="datetime-local"],input[type="email"],input[type="month"],input[type="number"],input[type="radio"],input[type="tel"],input[type="time"],input[type="url"],input[type="week"],input[type="search"],select,textarea {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: #fff;
+    color: #32373c;
+    outline: 0;
+    padding: 10px;
+    -webkit-transition: 50ms border-color ease-in-out;
+    transition: 50ms border-color ease-in-out;
+}
+
+input[type="text"]:focus,input[type="password"]:focus,input[type="checkbox"]:focus,input[type="color"]:focus,input[type="date"]:focus,input[type="datetime"]:focus,input[type="datetime-local"]:focus,input[type="email"]:focus,input[type="month"]:focus,input[type="number"]:focus,input[type="radio"]:focus,input[type="tel"]:focus,input[type="time"]:focus,input[type="url"]:focus,input[type="week"]:focus,input[type="search"]:focus,select:focus,textarea:focus {
+    border: 1px solid #A0A5AA;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: #fff;
+    color: #32373c;
+    outline: 0;
+    -webkit-transition: 50ms border-color ease-in-out;
+    transition: 50ms border-color ease-in-out;
+}
+
+#slider_options-slider-options input, #slider_options-slider-options textarea {
+  width: 100% !important;
+}
+
+#slider_options-slider-options textarea {
+  min-height: 200px;
+}
+
+/* White Label
+------------------------------ */
+
+
+.wp-core-ui .button, .page-title-action, .wp-core-ui .button.button-primary.button-hero {
+    -webkit-box-shadow: 0 2px 0 #006799;
+    box-shadow: 0 2px 0 #006799;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+#wp-admin-bar-wp-logo {
+    display: none;
+}
+#contextual-help-link-wrap,#screen-options-link-wrap,#screen-meta {
+    border: none;
+    border-top: none;
+    background: #fff;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+#adminmenu,#adminmenu .wp-submenu,#adminmenuback,#adminmenuwrap {
+    background-color: #2D3C50;
+}
+
+#adminmenu a.wp-has-current-submenu {
+    background-color: #F26B26 !important;
+}
+
+.wp-submenu a:hover {
+    color: #F26B26 !important;
+}
+
+.wp-submenu a:focus {
+    background-color: #233245 !important;
+    background: #233245 !important;
+}
+
+.wp-submenu:focus {
+    background-color: #233245 !important;
+    background: #233245 !important;
+}
+
+#adminmenu .wp-has-current-submenu .wp-submenu {
+    background-color: #233245;
+}
+
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu {
+    background: #F26B26;
+}
+
+.notice-success,div.updated,#update-nag,.update-nag {
+    border-left-color: #e74c3c;
+    box-shadow: none;
+    background: #fff;
+    display: none !important;
+}
+
+.postbox,.welcome-panel,table.widefat,.wp-filter {
+    border: none;
+    box-shadow: none;
+    background: #fff;
+}
+
+.wp-list-table.plugins tbody tr.plugin-update-tr td.plugin-update {
+    box-shadow: none;
+}
+
+#dashboard_quick_press form {
+    margin: 12px;
+    padding-bottom: 10px;
+}
+
+
+
+#adminmenu li.menu-top:hover,#adminmenu li.opensub > a.menu-top,#adminmenu li > a.menu-top:focus {
+    background-color: #384556 !important;
+    color: #fff !important;
+}
+
+.current,.current .wp-menu-image::before {
+    background-color: #F26B26 !important;
+    color: #fff !important;
+}
+
+#wpbody .current {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+div.wp-menu-image::before {
+    color: #a0a5aa !important;
+}
+
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu .wp-menu-image::before {
+    color: #fff !important;
+}
+
+a.menu-top:focus #adminmenu div.wp-menu-image::before,#adminmenu li.menu-top:hover #adminmenu div.wp-menu-image::before {
+    color: #fff !important;
+}
+
+a {
+    color: #04A4CC;
+}
+
+a:hover {
+    color: #F26B26;
+}
+
+button span {
+    color: #fff;
+}
+
+.wp-core-ui .button, .page-title-action {
+    background: rgba(0,0,0,.25);
+    border: none;
+
+    transition: all .3s ease;
+}
+
+.wp-core-ui .button:hover, .page-title-action:hover {
+    background: #F26B26;
+    color: #fff;
+    border: none;
+}
+
+h1 {
+    font-weight: 300 !important;
+    color: #2D3C50;
+}
+
+#major-publishing-actions input {
+    background: #F26B26;
+    text-shadow: none;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+#adminmenu .wp-submenu {
+    background: #32373C;
+}
+
+#adminmenu a:hover {
+    color: #fff;
+}
+
+#adminmenu a::after {
+    color: #fff;
+}
+
+.wp-submenu,.wp-submenu-wrap,.wp-submenu a,.wp-submenu-wrap a {
+    background-color: #233245 !important;
+}
+
+/* change color of arrow to submenus */
+#adminmenu li.wp-not-current-submenu .wp-menu-arrow,#adminmenu li.wp-not-current-submenu .wp-menu-arrow div {
+    background: #233245;
+}
+
+/* active screen as seen in menu - change the background and arrow colour */
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu,#adminmenu li.current a.menu-top,.folded #adminmenu li.wp-has-current-submenu,.folded #adminmenu li.current.menu-top,#adminmenu .wp-menu-arrow,#adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head {
+    background: #233245;
+}
+
+#adminmenu li.wp-has-current-submenu .wp-menu-arrow,#adminmenu li.wp-has-current-submenu .wp-menu-arrow div {
+    background: #233245;
+}
+
+.navigation-classic .primary-navigation .menu-item-has-children:before {
+    color: #233245;
+}
+
+.navigation-classic .primary-navigation .menu-item-has-children:before:hover {
+    color: #fff;
+}
+
+#adminmenu li.wp-has-submenu.wp-not-current-submenu.opensub:hover:after {
+    border-right-color: #233245;
+}
+
+.wp-has-current-submenu,.wp-has-current-submenu .wp-menu-name {
+    background-color: #F26B26 !important;
+}
+
+#collapse-menu:hover,#collapse-menu:hover #collapse-button div::after {
+    color: #F26B26;
+}
+
+.postarea .wp-core-ui .button {
+    background: #fff;
+    border: none;
+    transition: all .3s ease;
+    color: #333;
+}
+
+.postarea .wp-core-ui .button:hover {
+    background: #d8d8d8;
+    color: #F26B26;
+}
+
+.wp-pointer,#wp-admin-bar-comments {
+    display: none;
+}
+
+#wp-admin-bar-site-name-default, #wpadminbar #wp-admin-bar-my-account.with-avatar > a img {
+  display: none !important;
+}
+
+#wpadminbar {
+    background: #233245;
+}
+
+#jobmeta input, #jobmeta textarea {
+  width: 100% !important;
+  max-width: 88%;
+}
+
+ #jobmeta textarea {
+   min-height: 250px;
+ }
